@@ -7,7 +7,7 @@ import org.lwjgl.opengl.GL30;
 public class Renderer {
 
     public void prepare(){
-        GL11.glClearColor(0.5f,0.5f,0.5f,0.5f);
+        GL11.glClearColor(0.2f,0.2f,0.2f,0.2f);
         GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
     }
 
